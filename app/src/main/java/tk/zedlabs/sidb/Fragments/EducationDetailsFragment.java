@@ -107,7 +107,7 @@ public class EducationDetailsFragment extends Fragment {
                     return;
                 }
                 Bitmap image = BitmapFactory.decodeStream(response.body().byteStream());
-                //imageView.setImageBitmap(image);
+                imageView.setImageBitmap(image);
             }
 
             @Override
