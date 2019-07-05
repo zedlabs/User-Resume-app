@@ -66,7 +66,7 @@ public class PersonalDetailsFragment extends Fragment {
                     return;
                 }
                 Bitmap image = BitmapFactory.decodeStream(response.body().byteStream());
-                //imageView11.setImageBitmap(image);
+                imageView11.setImageBitmap(image);
             }
 
             @Override
