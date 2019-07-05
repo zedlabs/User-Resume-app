@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="Delete education Details"
+        android:id="@+id/delete_education_details"
+        app:showAsAction="never"/>
+    <item
+        android:title="Delete professional Details"
+        android:id="@+id/delete_professional_details"
+        app:showAsAction="never"/>
+</menu>
